@@ -29,9 +29,10 @@
         li {
             margin-bottom: 10px;
         }
-        .certificates img {
+        iframe {
             width: 100%;
-            max-width: 400px;
+            height: 500px;
+            border: none;
             margin-top: 10px;
         }
     </style>
@@ -39,8 +40,9 @@
 <body>
     <div class="container">
         <h1>My Resume</h1>
+        
         <h2>Summary</h2>
-        <p>Experienced in Kubernetes, monitoring solutions with Grafana and Prometheus, and cloud infrastructure management with AWS. Skilled in automation using Operators and Ansible, with strong scripting abilities in Python and Perl. Experienced in building APIs with Golang and basic knowledge of Core Java.</p>
+        <p>Experienced in Kubernetes, monitoring solutions with Grafana and Prometheus, and cloud infrastructure management with AWS. Skilled in automation using Operators and Ansible, with strong scripting abilities in Python and Perl. Experienced in building APIs with Golang and have basic knowledge of Core Java.</p>
         
         <h2>Skills</h2>
         <ul>
@@ -59,24 +61,28 @@
             <li>Managed private Docker registry and Helm repository.</li>
             <li>Developed RESTful APIs with Golang using goroutines and channels.</li>
             <li>Integrated MongoDB and Vault for secure storage.</li>
-            <li>Implemented CI/CD pipelines using Jenkins.</li>
-            <li>Monitored performance using AWS CloudWatch.</li>
+            <li>Implemented CI/CD pipelines using Jenkins, improving deployment efficiency by 40%.</li>
+            <li>Monitored application performance using AWS CloudWatch.</li>
         </ul>
         
         <h3>Software Engineer, MothersonSumi Infotech & Design Ltd. (April 2019 - Sept 2021)</h3>
-        <p>Project: Factory Analytics Solution - Developed a financial analytics application tracking plant KPIs.</p>
-        
+        <p><strong>Project:</strong> Factory Analytics Solution - Developed a financial analytics application tracking plant-specific KPIs.</p>
+        <ul>
+            <li>Ensured seamless data integration between BI dashboards and the application.</li>
+            <li>Processed and validated data for manufacturing processes (Injection, Paintline, and Inventory).</li>
+            <li>Optimized workflows, improving reporting accuracy and decision-making efficiency.</li>
+        </ul>
+
         <h2>Certifications</h2>
         <ul>
             <li>AWS Certified Cloud Practitioner</li>
             <li>CKAD Certified Kubernetes Application Developer</li>
+            <li>SQL Basic & Advanced - HackerRank</li>
         </ul>
         
-        <div class="certificates">
-            <h2>Certificates</h2>
-            <img src="certificate1.jpg" alt="Certificate 1">
-            <img src="certificate2.jpg" alt="Certificate 2">
-        </div>
+        <h2>Certificates</h2>
+        <iframe src="certificate1.pdf"></iframe>
+        <iframe src="certificate2.pdf"></iframe>
     </div>
 </body>
 </html>
