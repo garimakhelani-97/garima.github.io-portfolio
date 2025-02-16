@@ -3,17 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .certificates img {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-    <main>
-        <p>This is a simple HTML page served from a GitHub repository!</p>
-    </main>
-    <footer>
-        <p>&copy; 2025 My Website</p>
-    </footer>
+    <div class="container">
+        <h1>My Resume</h1>
+        <h2>Summary</h2>
+        <p>Experienced in Kubernetes, monitoring solutions with Grafana and Prometheus, and cloud infrastructure management with AWS. Skilled in automation using Operators and Ansible, with strong scripting abilities in Python and Perl. Experienced in building APIs with Golang and basic knowledge of Core Java.</p>
+        
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Technologies:</strong> Docker, Kubernetes, Grafana, Prometheus</li>
+            <li><strong>Cloud Platforms:</strong> AWS (Amazon Web Services)</li>
+            <li><strong>Automation Tools:</strong> Operators, Ansible, Jenkins, CI/CD</li>
+            <li><strong>Programming Languages:</strong> Python, Perl, Shell Scripting, Golang (API development), Core Java (basic)</li>
+            <li><strong>Databases:</strong> MySQL, MongoDB, SQL Server</li>
+        </ul>
+        
+        <h2>Experience</h2>
+        <h3>Senior Software Engineer, Infobeans (Aug 2021 - Present)</h3>
+        <p><strong>Client:</strong> NetApp</p>
+        <ul>
+            <li>Developed Kubernetes Operators using Operator SDK and Golang.</li>
+            <li>Managed private Docker registry and Helm repository.</li>
+            <li>Developed RESTful APIs with Golang using goroutines and channels.</li>
+            <li>Integrated MongoDB and Vault for secure storage.</li>
+            <li>Implemented CI/CD pipelines using Jenkins.</li>
+            <li>Monitored performance using AWS CloudWatch.</li>
+        </ul>
+        
+        <h3>Software Engineer, MothersonSumi Infotech & Design Ltd. (April 2019 - Sept 2021)</h3>
+        <p>Project: Factory Analytics Solution - Developed a financial analytics application tracking plant KPIs.</p>
+        
+        <h2>Certifications</h2>
+        <ul>
+            <li>AWS Certified Cloud Practitioner</li>
+            <li>CKAD Certified Kubernetes Application Developer</li>
+        </ul>
+        
+        <div class="certificates">
+            <h2>Certificates</h2>
+            <img src="certificate1.jpg" alt="Certificate 1">
+            <img src="certificate2.jpg" alt="Certificate 2">
+        </div>
+    </div>
 </body>
 </html>
